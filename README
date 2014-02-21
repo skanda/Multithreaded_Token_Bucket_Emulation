@@ -1,0 +1,11 @@
+Type make warmup2 to create the executable
+
+Observation:
+----------------
+The inter-arrival time for the case is not coming as expected: 
+./warmup2 -n 3 -lambda 1500 
+
+
+Known Bugs in Implementation
+------------------
+I have implemented Cntrl+C handling. But on pressing Ctrl+C, the statistics are way off.
